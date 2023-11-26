@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* Estilo para o conteúdo da página */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+/* Restante do seu CSS ... */
+
+/* Estilo para o título fora da box */
+h1.tituloSobreNos {
+    text-align: center;
+    /* Centraliza o texto */
+    color: #333;
+    /* Altere para a cor desejada para o texto "Sobre" */
+    margin-top: 50px;
+    /* Adiciona um espaço superior de 50 pixels */
+}
+
+h1.tituloSobreNos span {
+    color: #F86642;
+    /* Cor laranja para o texto "Nós" usando um elemento span */
+}
+
+/* Estilo para a box principal */
+.mainSobreNos {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto 50px;
+    /* Adiciona espaço superior de 20 pixels e inferior de 50 pixels */
+    background-color: #434343;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.mainSobreNos>h2 {
+    margin-bottom: 6px;
+}
+
+.AjusteH2 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.mainSobreNos>p {
+    text-align: justify;
+}
+
+/* Estilo para o footer */
+footer {
+    background-color: #000;
+    /* Cor de fundo preta */
+    color: #fff;
+    /* Cor do texto branco */
+    text-align: center;
+    /* Centraliza o conteúdo */
+    padding: 20px 0;
+    /* Espaçamento interno superior e inferior de 20 pixels */
+    position: fixed;
+    /* Mantém o footer fixo na parte inferior da tela */
+    bottom: 0;
+    /* Alinha o footer ao fundo da tela */
+    width: 100%;
+    /* Garante que o footer ocupe toda a largura da tela */
+    /* Remove qualquer margem padrão do navegador */
+}
+
+/* Estilo para a imagem no footer */
+footer img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-bottom: 20px;
+    /* Adiciona espaço abaixo da imagem */
+}
+
+/* Estilo para as mensagens no footer */
+footer p {
+    margin: 0;
+    display: flex;
+    /* Usa flexbox para alinhar os elementos filhos */
+    justify-content: center;
+    /* Adiciona espaçamento superior e inferior de 10 pixels */
+}
+
+/* Remova margens padrão do navegador */
+#imagemFooter {
+    width: 170px;
+    margin-top: 0px;
+}
+
+.imgRedes {
+    margin-right: 10px;
+    margin-left: 10px;
+}
