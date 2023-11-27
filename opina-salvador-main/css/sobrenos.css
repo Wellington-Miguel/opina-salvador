@@ -11,10 +11,15 @@ body {
 /* Estilo para o conteúdo da página */
 .container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50vh;
 
+}
+
+.form-container {
+    width: 80%;
+    /* Ajuste a largura do formulário conforme necessário */
 }
 
 /* Restante do seu CSS ... */
@@ -62,30 +67,28 @@ h1.tituloSobreNos span {
 
 /* Estilo para o footer */
 footer {
-    background-color: #000;
-    /* Cor de fundo preta */
-    color: #fff;
-    /* Cor do texto branco */
-    text-align: center;
-    /* Centraliza o conteúdo */
-    padding: 20px 0;
-    /* Espaçamento interno superior e inferior de 20 pixels */
     position: fixed;
-    /* Mantém o footer fixo na parte inferior da tela */
     bottom: 0;
-    /* Alinha o footer ao fundo da tela */
+    left: 0;
     width: 100%;
-    /* Garante que o footer ocupe toda a largura da tela */
-    /* Remove qualquer margem padrão do navegador */
+    background-color: black;
+    /* Cor de fundo preta */
+    color: white;
+    /* Cor do texto no footer */
+    text-align: center;
+    /* Alinhamento do texto */
+    padding: 20px 0;
+    /* Espaçamento interno superior e inferior */
+
 }
 
 /* Estilo para a imagem no footer */
 footer img {
-    max-width: 100%;
+    max-width: 150px;
     /* Garante que a imagem não ultrapasse a largura do contêiner */
     height: auto;
     /* Mantém a proporção da imagem */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     /* Adiciona espaço abaixo da imagem */
 }
 
@@ -100,11 +103,18 @@ footer p {
 
 /* Remova margens padrão do navegador */
 #imagemFooter {
-    width: 170px;
+    width: 150px;
     margin-top: 0px;
+
 }
 
 .imgRedes {
     margin-right: 10px;
     margin-left: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    h1.tituloSobreNos {
+        margin-top: 0px;
+    }
 }
