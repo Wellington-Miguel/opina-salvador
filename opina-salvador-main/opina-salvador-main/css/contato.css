@@ -41,6 +41,26 @@
   padding-bottom: 10px;
   
 }
+.servico-iten-top{
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  width: 70%;
+}
+
+.servico-iten-top .colocacao{
+  justify-self: start;
+  padding-left: 20px;
+}
+
+.servico-iten-top .colocacao-img{
+  padding-right: 107px;
+  margin: 0 auto;
+}
 .todos-servicos{
   display: flex;
   flex-direction: column;
