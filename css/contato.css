@@ -150,28 +150,39 @@ textarea {
 /* Estilos para o footer */
 /* Estilos para o footer */
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: black; /* Cor de fundo preta */
-  color: white; /* Cor do texto no footer */
-  text-align: center; /* Alinhamento do texto */
-  padding: 20px 0; /* Espaçamento interno superior e inferior */
+  margin-top: 20px;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color: black;
+   /* Cor de fundo preta */
+   color: white;
+   /* Cor do texto no footer */
+   text-align: center;
+   /* Alinhamento do texto */
+   padding: 20px 0;
+   /* Espaçamento interno superior e inferior */
 }
 
 
 /* Estilos para o conteúdo do footer */
 .footer-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 /* Estilos para a imagem do logo no footer */
 .logo {
-  width: 150px; /* Largura desejada para a imagem */
-  height: auto; /* Altura automática mantendo a proporção */
+   padding: 10px;
+   width: 150px;
+   /* Largura desejada para a imagem */
+   height: auto;
+   /* Altura automática mantendo a proporção */
 }
-
+.imgRedes{
+  
+   
+   padding: 20px;
+}
   
