@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,24 +15,25 @@
 
     <title>Opina Salvador</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <a href="../html/home.html">
+            <a href="../html/index.html">
                 <img class="logo-cabecalho" src="../assets/logo.png" alt="logo" width="200" height="100">
             </a>
-            
+
         </div>
         <nav class="menu">
             <li><a href="../html/sobre.html">Sobre nós</a></li>
-            <li class="top-text"> <a  href="../html/top.html">Top 5</a></li>
+            <li class="top-text"> <a href="../html/top.html">Top 5</a></li>
             <li><a href="../html/contato.html">Contato</a></li>
         </nav>
-            <button class="botao-servico"> 
-                <a href="../html/servicos.html">Serviços</a>
-            </button>
+        <button class="botao-servico">
+            <a href="../html/servicos.html">Serviços</a>
+        </button>
     </header>
-    
+
     <div class="descricao">
         <div class="descricao-iten">
             <img src="../assets/check.png" alt="check">
@@ -45,7 +47,7 @@
             <img src="../assets/check.png" alt="check">
             <p class="texto-descricao">Avalie</p>
         </div> <!--Avalie-->
-        
+
     </div> <!--descricao-->
 
     <div class="todos-servicos">
@@ -53,268 +55,298 @@
             <img src="../assets/image 5.png" alt="embasa-logo">
             <div class="info-servicos">
                 <h1>Embasa</h1>
-                <p>A Empresa Baiana de Águas e Saneamento S.A. é uma empresa brasileira concessionária de serviços de saneamento básico de quase todo o estado da Bahia e pertencente ao governo estadual.</p>
+                <p>A Empresa Baiana de Águas e Saneamento S.A. é uma empresa brasileira concessionária de serviços de
+                    saneamento básico de quase todo o estado da Bahia e pertencente ao governo estadual.</p>
                 <div class="layout-voto">
-                     <form class="form-voto">
-                    <label for="fname">Nome:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Email:</label><br>
-                    <input type="email" id="lname" name="lname"><br>
-                    <label for="lname">CPF:</label><br>
-                    <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
-                </form>
-                  <div class="voto">
-                    <ul class="avaliacao">
-                    <li class="star-icon ativo" data-avaliacao="1"></li>
-                    <li class="star-icon" data-avaliacao="2"></li>
-                    <li class="star-icon" data-avaliacao="3"></li>
-                    <li class="star-icon" data-avaliacao="4"></li>
-                    <li class="star-icon" data-avaliacao="5"></li>
-                  </ul>
-                  <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
-                </div>
-                  
-            </div> <!--layout-voto-->
-        </div>
-                 
+                    <form class="form-voto">
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Email:</label><br>
+                        <input type="email" id="lname" name="lname"><br>
+                        <label for="lname">CPF:</label><br>
+                        <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
+                    </form>
+                    <div class="voto">
+                        <ul class="avaliacao">
+                            <li class="star-icon ativo" data-avaliacao="1"></li>
+                            <li class="star-icon" data-avaliacao="2"></li>
+                            <li class="star-icon" data-avaliacao="3"></li>
+                            <li class="star-icon" data-avaliacao="4"></li>
+                            <li class="star-icon" data-avaliacao="5"></li>
+                        </ul>
+                        <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
+                    </div>
+
+                </div> <!--layout-voto-->
+            </div>
+
         </div>
         <div class=" servico-iten">
             <img src="../assets/image 5-1.png" alt="coelba">
             <div class="info-servicos">
                 <h1>coelba</h1>
-                <p>A Empresa Baiana de Águas e Saneamento S.A. é uma empresa brasileira concessionária de serviços de saneamento básico de quase todo o estado da Bahia e pertencente ao governo estadual.</p>
+                <p>A a Neoenergia trabalha para construir um modelo de energia elétrica mais sustentável e acessível
+                    para os brasileiros. Alinhada ao movimento global de transição energética e descarbonização da
+                    economia, a companhia foi pioneira no país na geração de energia renovável, investindo na fonte
+                    eólica desde o início dos anos 2000.</p>
                 <div class="layout-voto">
                     <form class="form-voto">
-                   <label for="fname">Nome:</label><br>
-                   <input type="text" id="fname" name="fname" required><br>
-                   <label for="lname">Email:</label><br>
-                   <input type="email" id="lname" name="lname"><br>
-                   <label for="lname">CPF:</label><br>
-                   <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
-                </form>
-                 <div class="voto">
-                   <ul class="avaliacao">
-                   <li class="star-icon ativo" data-avaliacao="1"></li>
-                   <li class="star-icon" data-avaliacao="2"></li>
-                   <li class="star-icon" data-avaliacao="3"></li>
-                   <li class="star-icon" data-avaliacao="4"></li>
-                   <li class="star-icon" data-avaliacao="5"></li>
-                 </ul>
-                 <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
-               </div>
-                 
-           </div> 
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
+                        <label for="lname">Email:</label><br>
+                        <input type="email" id="lname" name="lname"><br>
+                        <label for="lname">CPF:</label><br>
+                        <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
+                    </form>
+                    <div class="voto">
+                        <ul class="avaliacao">
+                            <li class="star-icon ativo" data-avaliacao="1"></li>
+                            <li class="star-icon" data-avaliacao="2"></li>
+                            <li class="star-icon" data-avaliacao="3"></li>
+                            <li class="star-icon" data-avaliacao="4"></li>
+                            <li class="star-icon" data-avaliacao="5"></li>
+                        </ul>
+                        <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
+                    </div>
+
+                </div>
             </div>
         </div>
         <div class=" servico-iten">
             <img src="../assets/image 5-2.png" alt="ccr-logo">
             <div class="info-servicos">
                 <h1>CCR Metrô Bahia</h1>
-                <p>A Empresa Baiana de Águas e Saneamento S.A. é uma empresa brasileira concessionária de serviços de saneamento básico de quase todo o estado da Bahia e pertencente ao governo estadual.</p>
+                <p>
+                    A CCR Metrô Bahia é uma empresa do Grupo CCR, uma das maiores companhias de concessões de
+                    infraestrutura e mobilidade da América Latina.
+
+                    Desde 2013, a operadora é responsável pela manutenção e operação do Sistema Metroviário de Salvador
+                    e Lauro de Freitas, por um período de 30 anos, através de uma Parceria Público-Privada (PPP), com
+                    investimentos na ordem de R$ 5,8 bilhões , além de ter o sistema metroviário que mais cresceu na
+                    América Latina nos últimos anos, gerando cerca de oito mil empregos no auge das obras.</p>
                 <div class="layout-voto">
                     <form class="form-voto">
-                   <label for="fname">Nome:</label><br>
-                   <input type="text" id="fname" name="fname"><br>
-                   <label for="lname">Email:</label><br>
-                   <input type="email" id="lname" name="lname"><br>
-                   <label for="lname">CPF:</label><br>
-                   <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
-                </form>
-                 <div class="voto">
-                   <ul class="avaliacao">
-                   <li class="star-icon ativo" data-avaliacao="1"></li>
-                   <li class="star-icon" data-avaliacao="2"></li>
-                   <li class="star-icon" data-avaliacao="3"></li>
-                   <li class="star-icon" data-avaliacao="4"></li>
-                   <li class="star-icon" data-avaliacao="5"></li>
-                 </ul>
-                 <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
-               </div>
-                 
-           </div> 
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Email:</label><br>
+                        <input type="email" id="lname" name="lname"><br>
+                        <label for="lname">CPF:</label><br>
+                        <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
+                    </form>
+                    <div class="voto">
+                        <ul class="avaliacao">
+                            <li class="star-icon ativo" data-avaliacao="1"></li>
+                            <li class="star-icon" data-avaliacao="2"></li>
+                            <li class="star-icon" data-avaliacao="3"></li>
+                            <li class="star-icon" data-avaliacao="4"></li>
+                            <li class="star-icon" data-avaliacao="5"></li>
+                        </ul>
+                        <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
+                    </div>
+
+                </div>
             </div>
         </div>
         <div class=" servico-iten">
             <img src="../assets/image 5-3.png" alt="transalvador-logo">
             <div class="info-servicos">
                 <h1>transalvador</h1>
-                <p>A Empresa Baiana de Águas e Saneamento S.A. é uma empresa brasileira concessionária de serviços de saneamento básico de quase todo o estado da Bahia e pertencente ao governo estadual.</p>
+                <p>A Superintendência de Trânsito do Salvador é uma autarquia municipal da Prefeitura de Salvador. Foi
+                    criada em 2008 e, desde a sua renomeação, em 2014, tem a finalidade de gerir o trânsito e os
+                    estacionamentos públicos do município, assim como o exercício das atividades previstas no Código de
+                    Trânsito Brasileiro.</p>
                 <div class="layout-voto">
                     <form class="form-voto">
-                   <label for="fname">Nome:</label><br>
-                   <input type="text" id="fname" name="fname"><br>
-                   <label for="lname">Email:</label><br>
-                   <input type="email" id="lname" name="lname"><br>
-                   <label for="lname">CPF:</label><br>
-                   <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
-                </form>
-                 <div class="voto">
-                   <ul class="avaliacao">
-                   <li class="star-icon ativo" data-avaliacao="1"></li>
-                   <li class="star-icon" data-avaliacao="2"></li>
-                   <li class="star-icon" data-avaliacao="3"></li>
-                   <li class="star-icon" data-avaliacao="4"></li>
-                   <li class="star-icon" data-avaliacao="5"></li>
-                 </ul>
-                 <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
-               </div>
-                 
-           </div> 
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Email:</label><br>
+                        <input type="email" id="lname" name="lname"><br>
+                        <label for="lname">CPF:</label><br>
+                        <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
+                    </form>
+                    <div class="voto">
+                        <ul class="avaliacao">
+                            <li class="star-icon ativo" data-avaliacao="1"></li>
+                            <li class="star-icon" data-avaliacao="2"></li>
+                            <li class="star-icon" data-avaliacao="3"></li>
+                            <li class="star-icon" data-avaliacao="4"></li>
+                            <li class="star-icon" data-avaliacao="5"></li>
+                        </ul>
+                        <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
+                    </div>
+
+                </div>
             </div>
         </div>
         <div class=" servico-iten">
             <img src="../assets/image 10.png" alt="detran-logo">
             <div class="info-servicos">
                 <h1>Detran</h1>
-                <p>A Empresa Baiana de Águas e Saneamento S.A. é uma empresa brasileira concessionária de serviços de saneamento básico de quase todo o estado da Bahia e pertencente ao governo estadual.</p>
+                <p>O Departamento Estadual de Trânsito -DETRAN, Autarquia na forma da Lei nº 3.650, de 19 de maio de
+                    1978, reorganizada pela Lei nº 6.417, de 31 de agosto de 1992 e modificada pelas Leis nº 7.435, de
+                    30 de dezembro de 1998, n° 9.436, de 23 de março de 2005 e nº 10.214, de 26 de junho de 2006,
+                    vinculada à Secretaria da Administração, com personalidade jurídica de direito público, autonomia
+                    administrativa e financeira e patrimônio próprio, com sede e foro na Cidade do Salvador, Estado da
+                    Bahia, e jurisdição em todo o território do Estado, reger-se-á por este Regimento, pelas normas
+                    regulamentares que adotar e demais disposições legais pertinentes.</p>
                 <div class="layout-voto">
                     <form class="form-voto">
-                   <label for="fname">Nome:</label><br>
-                   <input type="text" id="fname" name="fname"><br>
-                   <label for="lname">Email:</label><br>
-                   <input type="email" id="lname" name="lname"><br>
-                   <label for="lname">CPF:</label><br>
-                   <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
-                </form>
-                 <div class="voto">
-                   <ul class="avaliacao">
-                   <li class="star-icon ativo" data-avaliacao="1"></li>
-                   <li class="star-icon" data-avaliacao="2"></li>
-                   <li class="star-icon" data-avaliacao="3"></li>
-                   <li class="star-icon" data-avaliacao="4"></li>
-                   <li class="star-icon" data-avaliacao="5"></li>
-                 </ul>
-                 <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
-               </div>
-                 
-           </div> 
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Email:</label><br>
+                        <input type="email" id="lname" name="lname"><br>
+                        <label for="lname">CPF:</label><br>
+                        <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
+                    </form>
+                    <div class="voto">
+                        <ul class="avaliacao">
+                            <li class="star-icon ativo" data-avaliacao="1"></li>
+                            <li class="star-icon" data-avaliacao="2"></li>
+                            <li class="star-icon" data-avaliacao="3"></li>
+                            <li class="star-icon" data-avaliacao="4"></li>
+                            <li class="star-icon" data-avaliacao="5"></li>
+                        </ul>
+                        <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
+                    </div>
+
+                </div>
             </div>
         </div>
         <div class=" servico-iten">
             <img src="../assets/image 6.png" alt="limpurb-logo">
             <div class="info-servicos">
                 <h1>Limpurb</h1>
-                <p>A Empresa Baiana de Águas e Saneamento S.A. é uma empresa brasileira concessionária de serviços de saneamento básico de quase todo o estado da Bahia e pertencente ao governo estadual.</p>
+                <p>Empresa feita para garantir a limpeza urbana e que visa a sustentabilidade socioambiental na cidade
+                    de Salvador. Na capital baiana, a Prefeitura lidera o Programa de Coleta Seletiva, o qual apresenta
+                    locais de coleta distribuídos pela cidade. Esses pontos de entrega são organizados por: Ecoponto,
+                    Eletrônicos, Lâmpadas Fluorescentes, Medicamentos, Óleo de Cozinha, Papéis e Jornais, PEVs, Pilhas e
+                    Baterias.</p>
                 <div class="layout-voto">
                     <form class="form-voto">
-                   <label for="fname">Nome:</label><br>
-                   <input type="text" id="fname" name="fname"><br>
-                   <label for="lname">Email:</label><br>
-                   <input type="email" id="lname" name="lname"><br>
-                   <label for="lname">CPF:</label><br>
-                   <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
-                </form>
-                 <div class="voto">
-                   <ul class="avaliacao">
-                   <li class="star-icon ativo" data-avaliacao="1"></li>
-                   <li class="star-icon" data-avaliacao="2"></li>
-                   <li class="star-icon" data-avaliacao="3"></li>
-                   <li class="star-icon" data-avaliacao="4"></li>
-                   <li class="star-icon" data-avaliacao="5"></li>
-                 </ul>
-                 <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
-               </div>
-                 
-           </div> 
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Email:</label><br>
+                        <input type="email" id="lname" name="lname"><br>
+                        <label for="lname">CPF:</label><br>
+                        <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
+                    </form>
+                    <div class="voto">
+                        <ul class="avaliacao">
+                            <li class="star-icon ativo" data-avaliacao="1"></li>
+                            <li class="star-icon" data-avaliacao="2"></li>
+                            <li class="star-icon" data-avaliacao="3"></li>
+                            <li class="star-icon" data-avaliacao="4"></li>
+                            <li class="star-icon" data-avaliacao="5"></li>
+                        </ul>
+                        <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
+                    </div>
+
+                </div>
             </div>
-            
+
         </div>
         <div class=" servico-iten">
             <img src="../assets/image 7.png" alt="integra-logo">
             <div class="info-servicos">
                 <h1>Integra</h1>
-                <p>A Empresa Baiana de Águas e Saneamento S.A. é uma empresa brasileira concessionária de serviços de saneamento básico de quase todo o estado da Bahia e pertencente ao governo estadual.</p>
+                <p>INTEGRA (ASSOCIAÇÃO DAS CONCECIONÁRIAS DO SERVIÇO DE TRANSPORTE PÚBLICO DE PASSAGEIROS POR ÔNIBUS DE
+                    SALVADOR) é uma associação, sem fins econômicos, de representação institucional das empresas
+                    concessionárias do Serviço de Transporte Público de Passageiros por Ônibus de Salvador – STCO.</p>
                 <div class="layout-voto">
                     <form class="form-voto">
-                   <label for="fname">Nome:</label><br>
-                   <input type="text" id="fname" name="fname"><br>
-                   <label for="lname">Email:</label><br>
-                   <input type="email" id="lname" name="lname"><br>
-                   <label for="lname">CPF:</label><br>
-                   <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
-                </form>
-                 <div class="voto">
-                   <ul class="avaliacao">
-                   <li class="star-icon ativo" data-avaliacao="1"></li>
-                   <li class="star-icon" data-avaliacao="2"></li>
-                   <li class="star-icon" data-avaliacao="3"></li>
-                   <li class="star-icon" data-avaliacao="4"></li>
-                   <li class="star-icon" data-avaliacao="5"></li>
-                 </ul>
-                 <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
-               </div>
-                 
-           </div> 
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Email:</label><br>
+                        <input type="email" id="lname" name="lname"><br>
+                        <label for="lname">CPF:</label><br>
+                        <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
+                    </form>
+                    <div class="voto">
+                        <ul class="avaliacao">
+                            <li class="star-icon ativo" data-avaliacao="1"></li>
+                            <li class="star-icon" data-avaliacao="2"></li>
+                            <li class="star-icon" data-avaliacao="3"></li>
+                            <li class="star-icon" data-avaliacao="4"></li>
+                            <li class="star-icon" data-avaliacao="5"></li>
+                        </ul>
+                        <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
+                    </div>
+
+                </div>
             </div>
-            
+
         </div>
         <div class=" servico-iten">
             <img src="../assets/image 8.png" alt="hemoba-logo">
             <div class="info-servicos">
                 <h1>Hemoba</h1>
-                <p>A Empresa Baiana de Águas e Saneamento S.A. é uma empresa brasileira concessionária de serviços de saneamento básico de quase todo o estado da Bahia e pertencente ao governo estadual.</p>
+                <p>A Fundação de Hematologia e Hemoterapia do Estado da Bahia é uma uma entidade pública sem fins
+                    lucrativos com a finalidade de executora da política de sangue no Estado da Bahia. </p>
                 <div class="layout-voto">
                     <form class="form-voto">
-                   <label for="fname">Nome:</label><br>
-                   <input type="text" id="fname" name="fname"><br>
-                   <label for="lname">Email:</label><br>
-                   <input type="email" id="lname" name="lname"><br>
-                   <label for="lname">CPF:</label><br>
-                   <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
-                </form>
-                 <div class="voto">
-                   <ul class="avaliacao">
-                   <li class="star-icon ativo" data-avaliacao="1"></li>
-                   <li class="star-icon" data-avaliacao="2"></li>
-                   <li class="star-icon" data-avaliacao="3"></li>
-                   <li class="star-icon" data-avaliacao="4"></li>
-                   <li class="star-icon" data-avaliacao="5"></li>
-                 </ul>
-                 <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
-               </div>
-                 
-           </div> 
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Email:</label><br>
+                        <input type="email" id="lname" name="lname"><br>
+                        <label for="lname">CPF:</label><br>
+                        <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
+                    </form>
+                    <div class="voto">
+                        <ul class="avaliacao">
+                            <li class="star-icon ativo" data-avaliacao="1"></li>
+                            <li class="star-icon" data-avaliacao="2"></li>
+                            <li class="star-icon" data-avaliacao="3"></li>
+                            <li class="star-icon" data-avaliacao="4"></li>
+                            <li class="star-icon" data-avaliacao="5"></li>
+                        </ul>
+                        <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
+                    </div>
+
+                </div>
             </div>
-            
+
         </div>
         <div class=" servico-iten">
             <img src="../assets/image 9.png" alt="sac-logo">
             <div class="info-servicos">
                 <h1>Sac Digital</h1>
-                <p>A Empresa Baiana de Águas e Saneamento S.A. é uma empresa brasileira concessionária de serviços de saneamento básico de quase todo o estado da Bahia e pertencente ao governo estadual.</p>
+                <p>É uma plataforma de Governo Eletrônico que traz o conceito de loja virtual de serviços públicos,
+                    concentrando em um único local informações e serviços prestados pelo Governo do Estado, num novo
+                    modelo de relacionamento com o cidadão. </p>
                 <div class="layout-voto">
                     <form class="form-voto">
-                   <label for="fname">Nome:</label><br>
-                   <input type="text" id="fname" name="fname"><br>
-                   <label for="lname">Email:</label><br>
-                   <input type="email" id="lname" name="lname"><br>
-                   <label for="lname">CPF:</label><br>
-                   <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
-                </form>
-                 <div class="voto">
-                   <ul class="avaliacao">
-                   <li class="star-icon ativo" data-avaliacao="1"></li>
-                   <li class="star-icon" data-avaliacao="2"></li>
-                   <li class="star-icon" data-avaliacao="3"></li>
-                   <li class="star-icon" data-avaliacao="4"></li>
-                   <li class="star-icon" data-avaliacao="5"></li>
-                 </ul>
-                 <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
-               </div>
-                 
-           </div> 
-           <div id="modalAvaliacao" class="modal">
-              <div class="modal-conteudo">
-                  <span class="fechar-modal" onclick="fecharModal()">&times;</span>
-                  <p>O serviço foi avaliado com sucesso!</p>
-              </div>
-            </div>
-           
-        
-    </div><!--todos servicos-->
-   
-        
-    
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Email:</label><br>
+                        <input type="email" id="lname" name="lname"><br>
+                        <label for="lname">CPF:</label><br>
+                        <input type="tel" id="cpforiginal" name="cpf" oninput="formatarCPF(this)">
+                    </form>
+                    <div class="voto">
+                        <ul class="avaliacao">
+                            <li class="star-icon ativo" data-avaliacao="1"></li>
+                            <li class="star-icon" data-avaliacao="2"></li>
+                            <li class="star-icon" data-avaliacao="3"></li>
+                            <li class="star-icon" data-avaliacao="4"></li>
+                            <li class="star-icon" data-avaliacao="5"></li>
+                        </ul>
+                        <Button class="butao-avaliar-home" onclick="abrirModal()">Avaliar</Button>
+                    </div>
+
+                </div>
+                <div id="modalAvaliacao" class="modal">
+                    <div class="modal-conteudo">
+                        <span class="fechar-modal" onclick="fecharModal()">&times;</span>
+                        <p>O serviço foi avaliado com sucesso!</p>
+                    </div>
+                </div>
+
+
+            </div><!--todos servicos-->
+
+
+
 
 </body>
+
 </html>
