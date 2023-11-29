@@ -42,16 +42,16 @@
         <div class="form-container">
             <form class="form-contato" action="#" method="POST" onsubmit="sebdEmail(event)">
                 <div class="input-container">
-                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" name="email">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" name="email">
                 </div>
                 <div class="input-container">
-                    <label for="exampleFormControlSubject" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="exampleFormControlSubject" name="nome">
+                    <label for="inputNome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="inputNome" name="nome">
                 </div>
                 <div class="input-container">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" name="mensagem" rows="5"></textarea>
+                    <label for="inputMessage" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="inputMessage" name="mensagem" rows="5"></textarea>
                 </div>
                 <div class="input-container" id="input-container">
                     <button type="submit" id="input-container" class="button">Enviar</button>
@@ -66,16 +66,20 @@
 
         function sebdEmail(e) {
             e.preventDefault();
-
+            let ebody = `
+            <b>Email: </b>${document.querySelector("#inputEmail").value}
+            <br>
+            <b>Nome: </b>${document.querySelector("#inputNome").value}
+            <br>
+            <b>Mensagem: </b>${document.querySelector("#inputMessage").value}
+            `;
 
             Email.send({
-                Host: "smtp.elasticemail.com",
-                Username: "opinasalvador@gmail.com",
-                Password: "D79D1A3C30EDF929A1A3C0783880CB976C33",
+                SecureToken: "00db9bd5-21bb-4df1-aae8-af510f131e58",
                 To: 'opinasalvador@gmail.com',
                 From: "opinasalvador@gmail.com",
-                Subject: document.getElementById('exampleFormControlSubject').value,
-                Body: document.getElementById('exampleFormControlTextarea1').value
+                Subject: "Mensagem recebida de " + document.querySelector("#inputEmail").value,
+                Body: ebody
             }).then(
                 message => alert(message)
             );
